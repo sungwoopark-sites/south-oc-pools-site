@@ -1,0 +1,94 @@
+/* ==========================================
+   South OC Pools - Animation Styles
+   ========================================== */
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered children */
+.services-grid .service-card:nth-child(1) { transition-delay: 0.05s; }
+.services-grid .service-card:nth-child(2) { transition-delay: 0.12s; }
+.services-grid .service-card:nth-child(3) { transition-delay: 0.19s; }
+.services-grid .service-card:nth-child(4) { transition-delay: 0.26s; }
+
+.testimonials-grid .testimonial-card:nth-child(1) { transition-delay: 0.05s; }
+.testimonials-grid .testimonial-card:nth-child(2) { transition-delay: 0.1s; }
+.testimonials-grid .testimonial-card:nth-child(3) { transition-delay: 0.15s; }
+.testimonials-grid .testimonial-card:nth-child(4) { transition-delay: 0.2s; }
+.testimonials-grid .testimonial-card:nth-child(5) { transition-delay: 0.25s; }
+
+/* Wave water animation for hero */
+@keyframes wave {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(-20px); }
+}
+
+/* Pulse CTA button */
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(0, 119, 182, 0.4); }
+  70% { box-shadow: 0 0 0 12px rgba(0, 119, 182, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 119, 182, 0); }
+}
+
+.btn-primary {
+  animation: pulse-ring 2.5s ease-out infinite;
+}
+
+.btn-primary:hover {
+  animation: none;
+}
+
+/* Area tags stagger on visible */
+.areas-grid span {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.3s ease, transform 0.3s ease, background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.areas-section.in-view .areas-grid span {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Stagger area tags */
+.areas-grid span:nth-child(1)  { transition-delay: 0.01s; }
+.areas-grid span:nth-child(2)  { transition-delay: 0.03s; }
+.areas-grid span:nth-child(3)  { transition-delay: 0.05s; }
+.areas-grid span:nth-child(4)  { transition-delay: 0.07s; }
+.areas-grid span:nth-child(5)  { transition-delay: 0.09s; }
+.areas-grid span:nth-child(6)  { transition-delay: 0.11s; }
+.areas-grid span:nth-child(7)  { transition-delay: 0.13s; }
+.areas-grid span:nth-child(8)  { transition-delay: 0.15s; }
+.areas-grid span:nth-child(9)  { transition-delay: 0.17s; }
+.areas-grid span:nth-child(10) { transition-delay: 0.19s; }
+.areas-grid span:nth-child(11) { transition-delay: 0.21s; }
+.areas-grid span:nth-child(12) { transition-delay: 0.23s; }
+.areas-grid span:nth-child(13) { transition-delay: 0.25s; }
+.areas-grid span:nth-child(14) { transition-delay: 0.27s; }
+.areas-grid span:nth-child(15) { transition-delay: 0.29s; }
+.areas-grid span:nth-child(n+16) { transition-delay: 0.31s; }
+
+/* Header scroll behavior */
+header.scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Mobile nav open animation */
+.mobile-nav.open {
+  display: block;
+  animation: slideDown 0.25s ease;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

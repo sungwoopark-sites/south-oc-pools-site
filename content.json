@@ -1,0 +1,109 @@
+{
+  "business_name": "South OC Pools",
+  "full_name": "South Orange County Pool Service & Repair",
+  "tagline": "Crystal Clean Pools. Coast to Canyon.",
+  "hero_headline": "Serving Orange County Since 2005",
+  "hero_subheadline": "Family-Owned & Operated Pool Service and Repairs",
+  "phone": "(949) 243-4312",
+  "email": null,
+  "address": "Lake Forest, CA",
+  "city": "Lake Forest, CA",
+  "service_area": "All of Orange County, CA",
+  "google_rating": "4.8",
+  "hours": "Phone calls and voicemails accepted 24/7",
+  "license": {
+    "number": "990474",
+    "classification": "Pool and Spa Maintenance & Construction",
+    "bonded_insured": true
+  },
+  "about": "Since 2005, South OC Pools Service and Repairs has provided high-quality swimming pool and spa repair and maintenance services throughout Orange County, California. As a small business, our team of experts is committed to delivering excellent customer service. South OC Pools is an owner-operated company, and we treat every job with the care and attention it deserves to ensure 100% satisfaction. From cleaning and repairs to upgrades — or even those unusual pool maintenance situations — we've got you covered! We'll keep your pool clean and clear all season long.",
+  "about_extended": "At South OC Pools, we're a proud family-owned company built on trust, integrity, and exceptional service. Your satisfaction is our top priority, and we go above and beyond to keep your pool clean, clear, and stress-free. Our approach is straightforward: show up on time, do quality work, and keep communication clear and honest. We focus on long-term care and proactive service, not just surface-level cleanings. Our clients know we take pride in what we do and that we're always available to help when something comes up. Every technician on our team undergoes a comprehensive background check and professional training before ever stepping foot on a job site.",
+  "services": [
+    {
+      "name": "Pool Cleaning Service",
+      "items": [
+        "Swimming Pool & Spa Cleaning",
+        "Green Pool Cleanups",
+        "Tile Cleaning",
+        "Acid Washes"
+      ]
+    },
+    {
+      "name": "Upgrades",
+      "items": [
+        "Pumps, Heaters, Motors, Valve, & LED Lights",
+        "Energy Efficient Equipment",
+        "Salt Systems",
+        "UV + Ozone Water Sanitizers",
+        "PH + ORP Controllers",
+        "Zinco Anodes/Corrosion Reducer"
+      ]
+    },
+    {
+      "name": "Pool Repair Service",
+      "items": [
+        "Swimming Pool & Spa Equipment Repair",
+        "Heaters, Pumps, Filters",
+        "Lighting & Electrical Troubleshooting",
+        "Leak Detection & Repair"
+      ]
+    },
+    {
+      "name": "Phone & Remote Controls",
+      "items": [
+        "Phone & Computer Pool Controls",
+        "Automatic Controls with Remote System"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "text": "Steve, thank you for your great service. I've been recommending your pool cleaning and repair services to my family and friends. Thanks again!",
+      "author": "Ali Altai",
+      "location": "Trabuco Canyon, CA"
+    },
+    {
+      "text": "Steve and his crew at South OC Pools have maintained my pool and spa for over five years. They are prompt, reliable and can fix most any problem that arises. They recently installed the Pentair system for me so that I can turn on all my pool equipment from my phone. It's a pretty fantastic system as are Steve and his guys. I highly recommend South OC Pools.",
+      "author": "Gayle Grosch",
+      "location": "Mission Viejo, CA"
+    },
+    {
+      "text": "Thank you Steve for such great service care and restoration work. Our pool looks so great. I am recommending you and your company to everyone I know that has a pool.",
+      "author": "Ron And Kathleen Kurrle",
+      "location": "Orange County, CA"
+    },
+    {
+      "text": "We tried several pool companies in the past (with not so great results), but we are now 100% satisfied with SOCP!! Steve always provides us with honest, reliable & professional service! Our pool has never looked better, and Steve really stepped up and replaced our outdated filter pump on extremely short notice so our pool was up and running for the weekend. We are very happy long-term customers of SOCP, and we highly recommend Steve & his company all South OC pool owners.",
+      "author": "Sue & Bill Mcdonough",
+      "location": "Mission Viejo, CA"
+    },
+    {
+      "text": "I developed a pool pump issue over the weekend before Xmas that needed attention quickly, my neighbor recommended Steve at South OC Pool Service. I left a message on Sunday and he called me the next day and we set up an appointment time for that day. Steve was there promptly at the designated time, assessed the problem, gave me an estimate and performed the repair all within a few hours. His work is professional, and his prices are very fair. I highly recommend him to anyone who is in need of pool service.",
+      "author": "Gary Ward",
+      "location": "Aliso Viejo, CA"
+    }
+  ],
+  "service_areas": [
+    "Aliso Viejo", "Anaheim", "Brea", "Buena Park", "Costa Mesa", "Coto de Caza",
+    "Cypress", "Dana Point", "Foothill Ranch", "Fullerton", "Fountain Valley",
+    "Garden Grove", "Huntington Beach", "Irvine", "Ladera Ranch", "Laguna Beach",
+    "La Habra", "Laguna Hills", "Laguna Niguel", "Mission Viejo", "Lake Forest",
+    "Los Alamitos", "Newport Beach", "Newport Coast", "Orange", "Placentia",
+    "Rancho Santa Margarita", "San Clemente", "San Juan Capistrano", "Santa Ana",
+    "Seal Beach", "Trabuco Canyon", "Tustin", "Westminster", "Yorba Linda"
+  ],
+  "brand_colors": {
+    "primary": "#0077b6",
+    "secondary": "#00b4d8",
+    "accent": "#023e8a"
+  },
+  "images_downloaded": [
+    "assets/images/hero.webp",
+    "assets/images/pool-service.webp",
+    "assets/images/about.webp",
+    "assets/images/logo.webp",
+    "assets/favicon.ico"
+  ],
+  "original_site": "https://www.southocpools.com/",
+  "copyright": "2013-2025 South Orange Country Pool Service & Repair"
+}
